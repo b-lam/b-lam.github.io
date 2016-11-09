@@ -81,6 +81,27 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:middle;
+    width:200px;
+}
+#content {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 90px;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+
 header {
     text-align: center;
     color: #fff;
