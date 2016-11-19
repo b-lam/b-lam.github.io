@@ -91,25 +91,19 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-.header-text.btn {
-  border: 1px solid #ffffff;
+.header-text {
+  border: 0px solid #ffffff;
   border-radius: 0;
   padding: 10px 30px;
   height: 100px;
   margin-top: 30px;
-}
-.header-text.btn:hover {
-  color: inherit;
-}
-.header-text.btn:focus,
-.header-text.btn:active:focus,
-.header-text.btn.active:focus,
-.header-text.btn.focus,
-.header-text.btn:active.focus,
-.header-text.btn.active.focus {
-  outline: thin dotted transparent;
-  outline: none;
-  outline-offset: -2px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 .typed-cursor {
   opacity: 1;
@@ -158,7 +152,7 @@ span.typed-cursor {
   position: relative;
 }
 @media only screen and (max-width: 608px) {
-  .header-text.btn {
+  .header-text {
     height: auto;
     white-space: inherit;
   }
