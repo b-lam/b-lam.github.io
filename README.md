@@ -1,4 +1,4 @@
-## Brandon Lam
+## [Brandon Lam](https://b-lam.github.io/)
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
