@@ -1,0 +1,144 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #ebf4ec;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header{
+	background: #ebf4ec;
+	color: #000000;
+	padding-top: 40px;
+	min-height: 70px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 25px 0 25px;
+}
+
+header #title{
+	float: left;
+}
+
+header #title h1{
+	margin: 0;
+	font-size: 36px;
+}
+
+header #title h1 a{
+	color: #000000;
+	text-decoration: none;
+}
+
+header nav{
+	float: right;
+	margin: 10px 0 0 0;
+}
+
+header nav a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+header nav a:hover{
+	text-decoration: underline;
+}
+
+/* Banner */
+#banner{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 125px 0 0 0;
+}
+
+#banner img{
+	max-width: 85%;
+	height: auto;
+	padding: 0 0 0 5vw;
+}
+
+#banner h1{
+	padding: 5vw;
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Directory */
+.directory h1{
+	padding-top: 50px;
+}
+
+.directory p{
+	font-size: 24px;
+	line-height: 2.5;
+}
+
+.directory p a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+.directory p a:hover{
+	text-decoration: underline;
+}
+
+/* Footer */
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0 50px 20px 0;
+	font-size: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1080px){
+	header #title, 
+	header nav, 
+	header nav li,
+	.directory,
+	.container{
+		float: none;
+		text-align: center;
+		width: 98%;
+		overflow: auto;
+	}
+
+	#banner{
+		padding: 75px 0 75px 0;
+	}
+
+	#banner img{
+		padding: 0 5vw 0 5vw;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.directory p,
+	.directory p a{
+		font-size: 20px;
+	}
+}
