@@ -123,20 +123,47 @@ header nav a:hover{
 	flex-grow: 1;
 }
 
-.carousel-portrait{
-	width: 300px;
+.content ul{
+	padding-left: 100px;
 }
 
-.carousel-landscape{
-	width: 500px;
+.content-text{
+	display: flex;
+	flex-direction: column;
 }
 
+.carousel-portrait,
 .image-portrait{
 	width: 300px;
 }
 
+.carousel-landscape,
 .image-landscape{
 	width: 500px;
+}
+
+.item-links{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.item-links li{
+	display: inline;
+	padding: 0 25px 0 0;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.item-links a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.item-links a:hover{
+	text-decoration: underline;
 }
 
 /* Footer */
@@ -172,6 +199,15 @@ footer{
 		padding: 25px 50px 25px 50px;
 	}
 
+	.content ul{
+		padding: 0 50px 50px 50px;
+	}
+
+	.item-links{
+		justify-content: center;
+		padding-top: 0;
+	}
+
 	#banner{
 		padding: 75px 0 75px 0;
 	}
@@ -182,10 +218,7 @@ footer{
 }
 
 @media only screen and (max-width: 550px){
-	.carousel-landscape{
-		width: 300px;
-	}
-
+	.carousel-landscape,
 	.image-landscape{
 		width: 300px;
 	}
