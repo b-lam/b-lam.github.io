@@ -81,7 +81,7 @@ header nav a:hover{
 #banner h1{
 	padding: 5vw;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 /* Directory */
@@ -90,6 +90,7 @@ header nav a:hover{
 }
 
 .directory p{
+	padding-bottom: 50px;
 	font-size: 24px;
 	line-height: 2.5;
 }
@@ -188,6 +189,18 @@ footer{
 		overflow: auto;
 	}
 
+	header #title h1{
+		margin: 0 25px 0 25px;
+	}
+
+	#banner{
+		padding: 40px 0 40px 0;
+	}
+
+	#banner img{
+		padding: 0 5vw 0 5vw;
+	}
+
 	.content{
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -207,14 +220,6 @@ footer{
 		justify-content: center;
 		padding-top: 0;
 	}
-
-	#banner{
-		padding: 75px 0 75px 0;
-	}
-
-	#banner img{
-		padding: 0 5vw 0 5vw;
-	}
 }
 
 @media only screen and (max-width: 550px){
@@ -228,5 +233,11 @@ footer{
 	.directory p,
 	.directory p a{
 		font-size: 20px;
+	}
+
+	.directory h1,
+	.article h1,
+	.content{
+		padding-top: 10px;
 	}
 }
