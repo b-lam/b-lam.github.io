@@ -105,6 +105,40 @@ header nav a:hover{
 	text-decoration: underline;
 }
 
+/* Article */
+.article h1{
+	padding-top: 50px;
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+}
+
+.content p{
+	padding-left: 100px;
+	font-size: 18px;
+	text-align: justify;
+	flex-grow: 1;
+}
+
+.carousel-portrait{
+	width: 300px;
+}
+
+.carousel-landscape{
+	width: 500px;
+}
+
+.image-portrait{
+	width: 300px;
+}
+
+.image-landscape{
+	width: 500px;
+}
+
 /* Footer */
 footer{
 	position: fixed;
@@ -127,12 +161,33 @@ footer{
 		overflow: auto;
 	}
 
+	.content{
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.content p{
+		text-align: center;
+		padding: 25px 50px 25px 50px;
+	}
+
 	#banner{
 		padding: 75px 0 75px 0;
 	}
 
 	#banner img{
 		padding: 0 5vw 0 5vw;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	.carousel-landscape{
+		width: 300px;
+	}
+
+	.image-landscape{
+		width: 300px;
 	}
 }
 
