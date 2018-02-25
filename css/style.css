@@ -136,11 +136,18 @@ header nav a:hover{
 .carousel-portrait,
 .image-portrait{
 	width: 300px;
+	height: auto;
 }
 
 .carousel-landscape,
 .image-landscape{
 	width: 500px;
+	height: auto;
+}
+
+.owl-carousel .owl-stage{
+  display: flex;
+  align-items: center;
 }
 
 .item-links{
