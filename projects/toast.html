@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Computer Engineering student @ the University of Waterloo">
+	<meta name="keywords" content="brandon lam, portfolio, software developer">
+	<meta name="author" content="Brandon Lam">
+	<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+	<title>Brandon Lam</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="../assets/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/owlcarousel/owl.theme.default.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="title">
+				<h1><a href="https://b-lam.github.io">WEBSITE c/o BRANDON LAM</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="https://b-lam.github.io/projects">Projects.</a></li>
+					<li><a href="https://b-lam.github.io/contact">Contact.</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="article">
+				<h1>Toast</h1>
+				<div class="content">
+					<div class="carousel-landscape">
+						<div class="owl-carousel owl-theme">
+							<div class="item-video" data-merge="1">
+								<a class="owl-video" href="https://www.youtube.com/watch?v=KztOPnD-P_E"></a>
+							</div>
+							<div class="item image-landscape" data-merge="1">
+								<img src="../img/toast/toast-kds.png">
+							</div>
+						</div>
+					</div>
+					<div class="content-text">
+						<p>A restaurant POS system powerful enough to run an entire restaurant on. Built on custom hardware, easy-to-use software and the most core features, Toast is designed specifically for restaurant success.
+						</p>
+						<ul class="item-links">
+							<li>Website // 
+								<a href="https://pos.toasttab.com/" target="_blank">Toast</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+
+    <!-- Owl Carousel Javascript -->
+	<script src="../assets/jquery.min.js"></script>
+	<script src="../assets/owlcarousel/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+				video: true,
+				items: 1,
+				lazyLoad: true,
+				center: true,
+				autoWidth: true
+			})
+		})
+	</script>
+</body>
+</html>
