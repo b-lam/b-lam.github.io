@@ -22,7 +22,7 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="https://b-lam.github.io/projects">Projects.</a></li>
+					<li><a href="https://b-lam.github.io/work">Work.</a></li>
 					<li><a href="https://b-lam.github.io/contact">Contact.</a></li>
 				</ul>
 			</nav>
@@ -32,24 +32,24 @@
 	<main>
 		<div class="container">
 			<div class="article">
-				<h1>Videostream</h1>
+				<h1>Toast</h1>
 				<div class="content">
 					<div class="carousel-landscape">
 						<div class="owl-carousel owl-theme">
-							<div class="item image-landscape">
-								<img src="../img/videostream/videostream.png">
+							<div class="item image-landscape" data-merge="1">
+								<img src="../img/toast/toast-platform.png">
 							</div>
-							<div class="item image-landscape">
-								<img src="../img/videostream/videostream-cast.png">
+							<div class="item image-landscape" data-merge="1">
+								<img src="../img/toast/toast-kds.png">
 							</div>
 						</div>
 					</div>
 					<div class="content-text">
-						<p>Videostream is an app that allows you stream local/downloaded video to your Chromecast! With 2 million+ users, Videostream is one of the top Chromecast applications.
+						<p>A restaurant POS system powerful enough to run an entire restaurant on. Built on custom hardware, easy-to-use software and the most core features, Toast is designed specifically for restaurant success.
 						</p>
 						<ul class="item-links">
 							<li>Website // 
-								<a href="https://getvideostream.com/" target="_blank">Videostream</a>
+								<a href="https://pos.toasttab.com/" target="_blank">Toast</a>
 							</li>
 						</ul>
 					</div>
@@ -66,11 +66,11 @@
 		$(document).ready(function() {
 			var owl = $('.owl-carousel');
 			owl.owlCarousel({
+				video: true,
 				items: 1,
+				lazyLoad: true,
 				center: true,
-				autoWidth: true,
-				autoplay: true,
-				loop: true
+				autoWidth: true
 			})
 		})
 	</script>
